@@ -1,0 +1,8 @@
+#include "stdafx.h"
+#include "Color.h"
+
+
+bool Color::HasColor()
+{
+	if (color != "\0") return true;
+}
